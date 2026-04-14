@@ -19,4 +19,10 @@ public class Cliente {
         return;
     }
 
+    public String getDados() {
+        String aux = "";
+        aux += "CNPJ: " + cnpj + "\n";
+        aux+="Cliente: " +cliente+"\n";
+        return aux;
+    }
 }
